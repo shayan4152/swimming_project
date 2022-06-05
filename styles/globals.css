@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#gradient{
+  opacity: 0.8;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#first{
+  background: linear-gradient(to top, #14aacb, #3b9dff);
+  background: linear-gradient(to bottom, #1a97b3, #3b9dff);
+  background: linear-gradient(to left, #17788d, #3b9dff);
+  background: linear-gradient(to right, #1e5b68, #3b9dff);
+}
+#second{
+  background: linear-gradient(to right, #0db5b5,#4798ea, #44aacc);
+
+}
+#workout{
+  background: linear-gradient(to right, #dcf2f2,#90e4e1, #60d1e0);
+
+}
+#planner{
+  background: linear-gradient(to right,#74c4c4cd, #21c2c2cd, #276e6be8);
+
+}
+
+#form{
+  
+  background: linear-gradient(to right, #048baa4d, #3b9dff4f);
+}
+#background{
+  opacity: 1.0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('https://th.bing.com/th/id/R.e8a1f45b76c4e6dd39d01267f7d1234d?rik=uHhTNO%2bxFPG%2fTA&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1530549387789-4c1017266635%3fixlib%3drb-1.2.1%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax%26ixid%3deyJhcHBfaWQiOjEyMDd9&ehk=fBotZvw4bs9NJFdweL1uwWPAANdZx7qgJvPFcASl8qg%3d&risl=&pid=ImgRaw&r=0');
+}
+#header{
+  background-position: center;
+  background-image: url('http://primehostingindia.com/templatemonster/react/swimmerz/assets/img/footer.jpg');
+  height: 100vh;
+}
+#inside{
+  background-color: rgba(0, 0, 0, 0.75)
+}
+
